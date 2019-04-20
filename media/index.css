@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:600,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+
+body{
+    background: #343E55 none no-repeat scroll 0 0;
+}
+
+.text_headers{
+    font-family: 'Oswald', sans-serif;
+    color: #D6D8DD;
+    font-weight: 600;
+}
+
+.side_menu ul li{
+    text-align: center;
+    list-style: none;
+    line-height: 100px;
+    z-index: 2;
+    position: relative;
+    top: 100px;
+    left: -50px;
+    width: 380px;
+}
+
+.side_background{
+    position: absolute;
+    border: none;
+    width: 380px;
+    height: 1000px;
+    background-color: #040F29;
+    z-index: 1;
+}
+
+.title h1{
+    /*transform: translate(80px, 180px);*/
+    position: absolute;
+    top: 50px;
+    left: 180px;
+    font-weight: 700;
+    color: #838996;
+    z-index: 3;
+}
+.title h3{
+    transform: translate(80px,170px);
+    font-weight: 700;
+    color:#838996
+}
+
+p{
+    position: relative;
+    font-size: 18;
+    font-family: 'Josefin Slab', sans-serif;
+    color: #D6D8DD;
+    z-index: 4;
+    
+}
+
+/*D6D8DD*/
